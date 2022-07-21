@@ -52,3 +52,20 @@ button{
   text-align: center;
   font-family: Verdana;
 }
+
+@media only screen and (max-width: 600px) {
+  .box{
+    width: 90%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 10px rgba(150, 142, 142, 0.671);
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px; */
+  }
+}
