@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>JavaScript</title>
+</head>
+
+<body>
+  <h1>JavaScript Projects</h1>
+  <div class="container">
+    <!-- INPUT OUTPUT START -->
+    <div class="box">
+      <h3>1. Input & Output Using JavaScript</h3>
+      <input type="text" id="text">
+      <button onclick="alert_btn();">Alert</button>
+
+      <button onclick="write_btn();">Write In Div</button>
+
+      <button onclick="save_btn();">Save</button>
+
+      <button onclick="alert_save();">Alert Save</button>
+
+      <button onclick="write_btn2();">Write Saved In Div</button>
+
+      <button onclick="clear_btn();">Clear Div</button>
+
+      <div id="div"></div>
+    </div>
+    <!-- INPUT OUTPUT END -->
+
+    <!-- SHOW HIDE STARTS -->
+    <div class="box">
+      <h3>2. Hide & Show Elements in JavaScript</h3>
+
+      <div id="div-box">
+        <span id="div-text">I love JavaScript</span>
+      </div>
+
+      <button id="btn1" onclick="toggle_text();">Hide/Show Text</button>
+
+      <button onclick="toggle_div();">Hide/Show Div</button>
+
+      <button onclick="change_text();">Change Text</button>
+    </div>
+    <!-- SHOW HIDE END -->
+
+    <!-- COLOR CHANGE STARTS -->
+    <div class="box">
+      <h3>3. Color Change & Animation in JavaScript</h3>
+
+      <div id="box3">
+        <span id="div-text"></span>
+      </div>
+
+      <button id="genNew" onclick="colorFun();">Chage Color</button>
+    </div>
+
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
