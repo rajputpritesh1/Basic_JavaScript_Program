@@ -84,3 +84,27 @@ function colorFun() {
 function animateFun(){
   let animate = document.getElementById('box3').classList.toggle('box3');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Code By :- Rajput Pritesh
